@@ -14,13 +14,16 @@
   padding-bottom: 8px;
 }
 
-.features .container {
+.features {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .features-list {
   display: flex;
-  justify-content: space-between;
   gap: 24px;
+}
+
+.features-items {
+  flex-basis: calc((100% - 72px) / 4);
 }
