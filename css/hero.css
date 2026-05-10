@@ -1,6 +1,14 @@
 .hero {
   background-color: #2e2f42;
 }
+.hero .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  background-color: #2e2f42;
+}
 .header-1 {
   color: #ffffff;
   font-size: 56px;
@@ -8,8 +16,13 @@
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 48px;
 }
 .button {
+  display: block;
+  height: 56px;
+  width: 169px;
+  border-radius: 4px;
   background-color: #4d5ae5;
   color: #ffffff;
   font-size: 16px;
